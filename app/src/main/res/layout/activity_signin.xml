@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signin"
+    android:background="@drawable/im"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/biolog"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/green"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/green2"
+        android:hint="Пароль"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white" />
+
+
+
+        <Button
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="80dp"
+            android:id="@+id/but"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:onClick="signin"
+            android:layout_gravity="center"
+            android:textSize="17sp"
+            android:layout_marginLeft="75dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/green3"
+            android:text="Войти"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">pr16_m</string>
+    <string name="tr">Правда</string>
+    <string name="fl">Неправда</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="vpered"><![CDATA[>]]></string>
+    <string name="log">Логин</string>
+    <string name="biolog">Авторизоваться в тест\nпо биологии</string>
+    <string name="email">Введите email</string>
+    <string name="correct_toast">Вы ответили верно!</string>
+    <string name="incorrect_toast">У вас неверный ответ!</string>
+    <string name="par">Проверьте правильность введёных данных (логина и пароля)</string>
+    <string name="q_t1">Колибри - это единственное семейство птиц, способных летать назад?</string>
+    <string name="q_t2">Красный цвет бесит быков?</string>
+    <string name="q_t3">Эукариоты это безядерные существа?</string>
+    <string name="q_t4"> Мед - это единственный продукт питания, который ВООБЩЕ НИКОГДА не портится?</string>
+    <string name="q_t5"> Киты являются более близкими родственниками бегемотам, нежели свиньи?</string>
+
+
+</resources>
